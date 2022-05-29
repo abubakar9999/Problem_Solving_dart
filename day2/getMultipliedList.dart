@@ -1,5 +1,5 @@
 /*
- *Create a function that takes a list with numbers and return a list with the elements multiplied by two. 
+ *Create a function that takes a list with numbers and return a list with the elements multiplied by two. ..
 Examples
 getMultipliedList([2, 5, 3]) ➞ [4, 10, 6]
 getMultipliedList([1, 86, -5]) ➞ [2, 172, -10]
