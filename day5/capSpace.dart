@@ -3,12 +3,10 @@
 // capSpace("iLoveMyTeapot") ➞ "i love my teapot"capSpace("stayIndoors") ➞ "stay indoors"!Notes -The first letter will stay uncapitalized.
 
 main() {
-  print(capspace("helloWord"));
+  print(capspace("helloWorld"));
 }
 
-capspace(String woed) {
-  var r = woed.split('').toList();
-  return r
-      .where((element) => element.contains(element.toString().toUpperCase()))
-      .join(" ");
-}
+capspace(String data) => data
+    .split('')
+    .map((word) => word == word.toUpperCase() ? " " + word.toLowerCase() : word)
+    .join('');

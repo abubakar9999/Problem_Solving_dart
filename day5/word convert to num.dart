@@ -11,8 +11,8 @@ main() {
 
 word(String word) {
   List data = [
-    "zero"
-        "one",
+    "zero",
+    "one",
     "two",
     "three",
     "four",
@@ -24,5 +24,5 @@ word(String word) {
     "ten"
   ];
 
-  return data.where((element) => element.contains(word));
+  return data.indexOf(word);
 }
