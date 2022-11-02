@@ -4,4 +4,4 @@ main() {
   print(spaceMeOut("space"));
 }
 
-spaceMeOut(String data) => data.split(" ").toString();
+spaceMeOut(String data) => data.split(",").join();
